@@ -27,8 +27,8 @@ def main():
 
         if uname == key:
                 print "\033[1;31mSABAR.."
-                time.sleep(2)
-                os.system('lolcat app.txt -a -d 45 -s 20 -F 0.1 -p 2.0')
+                time.sleep(1)
+                os.system('lolcat tq.txt -a -d 45 -s 20 -F 0.1 -p 2.0')
 
         elif uname == jjk:
                 oke()
