@@ -13,7 +13,7 @@ while True:
     except ImportError:
         print('\nOTW boss....\n')
         time.sleep(2)
-        os.system('{} -m pip install -r {}{}'.format(sys.executable, os.path.dirname(os.path.realpath(__file__)), '/requirements.txt'))
+        os.system('pip install -r requirements.txt')
 
 try:
     from queue import Queue
