@@ -7,7 +7,7 @@ import threading
 import jjk
 while True:
     try:
-        import otewe
+        import app
         import requests
         break
     except ImportError:
