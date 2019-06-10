@@ -4,7 +4,7 @@ import re
 import sys
 import time
 import threading
-import jjk
+import req
 while True:
     try:
         import app
