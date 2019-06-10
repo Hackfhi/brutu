@@ -26,7 +26,7 @@ def main():
         uname = raw_input("\033[1;34m>>>> ")
 
         if uname == key:
-                print "\033[1;31mSABAR.."
+                print "\033[1;31mUNLOCKED"
                 time.sleep(1)
                 os.system('lolcat tq.txt -a -d 45 -s 20 -F 0.1 -p 2.0')
 
